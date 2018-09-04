@@ -8,7 +8,6 @@ import id.riotfallen.footballmatchschedule.api.ApiRepository
 class BadgeFetcher {
 
     private lateinit var presenter: BadgesPresenter
-    private lateinit var image: ImageView
 
 
     fun loadBadges(id: String, img: ImageView) {
